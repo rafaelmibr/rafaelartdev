@@ -15,12 +15,12 @@ body {
 }
 
 a {
-  color: #149ddd;
+  color: #106d97;
   text-decoration: none;
 }
 
 a:hover {
-  color: #37b3ed;
+  color: #18a1e0;
   text-decoration: none;
 }
 
@@ -241,7 +241,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/hero-bg.webp") top center;
   background-size: cover;
 }
 
@@ -1014,7 +1014,7 @@ section {
   background: #37b3ed;
 }
 
-.buttonCV{
+.buttonCV {
   background: #149ddd;
   border: 0;
   padding: 10px 24px;
@@ -1111,5 +1111,23 @@ section {
     position: static;
     width: auto;
     padding-right: 20px 15px;
+  }
+}
+
+
+.hero-text span {
+  font-size: 50px;
+}
+
+
+@media (max-width: 768px) {
+  .hero-text {
+    text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-text span {
+    font-size: 36px;
   }
 }
