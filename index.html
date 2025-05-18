@@ -12,24 +12,42 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon-96x96.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/img/favicon-96x96.png?v=1.0" rel="icon">
+  <link href="assets/img/apple-touch-icon.png?v=1.0" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link
+  <link rel="preload"
     href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-    rel="stylesheet">
+    as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript>
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet">
+  </noscript>
 
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link rel="preload" href="assets/vendor/aos/aos.css?v=1.0" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="assets/vendor/bootstrap/css/bootstrap.min.css?v=1.0" as="style"
+    onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="assets/vendor/bootstrap-icons/bootstrap-icons.min.css?v=1.0" as="style"
+    onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="assets/vendor/boxicons/css/boxicons.min.css?v=1.0" as="style"
+    onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="assets/vendor/glightbox/css/glightbox.min.css?v=1.0" as="style"
+    onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="assets/vendor/swiper/swiper-bundle.min.css?v=1.0" as="style"
+    onload="this.onload=null;this.rel='stylesheet'">
+  <noscript>
+    <link href="assets/vendor/aos/aos.css?v=1.0" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css?v=1.0" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.min.css?v=1.0" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css?v=1.0" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css?v=1.0" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css?v=1.0" rel="stylesheet">
+  </noscript>
 
   <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/style.css?v=1.0" rel="stylesheet">
 
 </head>
 <script>
@@ -49,7 +67,7 @@
     <div class="d-flex flex-column">
 
       <div class="profile">
-        <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
+        <img src="assets/img/profile-img.webp" alt="" class="img-fluid rounded-circle" width="120" height="120">
         <h1 class="text-light"><a href="index.html">Rafael Oliveira</a></h1>
         <div class="social-links mt-3 text-center">
           <!--<a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>-->
@@ -84,7 +102,7 @@
     <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
       <div class="hero-container" data-aos="fade-in">
         <div class="container">
-          <h1> <img src="assets/img/logo.png" alt="" class="img-fluid"></h1>
+          <h1> <img src="assets/img/logo.webp" alt="" class="img-fluid" width="820" height="180"></h1>
           <p class="hero-text"> <span class="typed"
               data-typed-items="Diretor de Arte, Desenvolvedor Fullstack Júnior"></span>
           </p>
@@ -110,7 +128,7 @@
 
         <div class="row">
           <div class="col-lg-4" data-aos="fade-right">
-            <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
+            <img src="assets/img/profile-img.webp" class="img-fluid" alt="" width="300" height="300">
           </div>
           <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
             <h3>Diretor de Arte &amp; Desenvolvedor Júnior.</h3>
@@ -251,9 +269,10 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-artes">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/3-pacto-das-pretas.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/3-pacto-das-pretas-thumb.webp" class="img-fluid" alt="" width="400"
+                height="300">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/3-pacto-das-pretas.jpg" data-gallery="portfolioGallery"
+                <a href="assets/img/portfolio/3-pacto-das-pretas.webp" data-gallery="portfolioGallery"
                   class="portfolio-lightbox"
                   title="A 3ª Pacto das Pretas foi um evento promovido pelo Pacto de Promoção da Equidade Racial, reunindo mulheres negras de diversas áreas para debater desafios, conquistas e estratégias voltadas à equidade racial no Brasil. O encontro destacou a importância da representatividade, do fortalecimento das redes de apoio e da implementação de políticas corporativas e institucionais que promovam a inclusão e o desenvolvimento de profissionais negras no mercado de trabalho.
 
@@ -266,9 +285,10 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-artes">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/3-conferencia-empresarial-esg-racial.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/3-conferencia-empresarial-esg-racial-thumb.webp" class="img-fluid" alt=""
+                width="400" height="300">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/3-conferencia-empresarial-esg-racial.jpg" data-gallery="portfolioGallery"
+                <a href="assets/img/portfolio/3-conferencia-empresarial-esg-racial.webp" data-gallery="portfolioGallery"
                   class="portfolio-lightbox"
                   title="A 3ª Conferência Empresarial ESG Racial aconteceu nos dias 27 e 28 de novembro de 2024, no Teatro Paulo Autran – SESC Pinheiros, em São Paulo, reunindo grandes empresas e especialistas para debater a equidade racial no ambiente corporativo.
 
@@ -283,9 +303,10 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-artes">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/2-conferencia-empresarial-esg-racial.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/2-conferencia-empresarial-esg-racial-thumb.webp" class="img-fluid" alt=""
+                width="400" height="300">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/2-conferencia-empresarial-esg-racial.jpg" data-gallery="portfolioGallery"
+                <a href="assets/img/portfolio/2-conferencia-empresarial-esg-racial.webp" data-gallery="portfolioGallery"
                   class="portfolio-lightbox"
                   title="A 2ª Conferência Empresarial ESG Racial, realizada nos dias 29 e 30 de novembro de 2023, no Teatro Sérgio Cardoso, reuniu grandes empresas como Vivo, Ambev, ANBIMA, iFood, Stone, SESC, Gol e United Airlines para debater a equidade racial e o impacto do investimento social privado na educação.
 
@@ -300,9 +321,10 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-motion">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/pele-eterno-motion.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/pele-eterno-motion-thumb.webp" class="img-fluid" alt="" width="400"
+                height="300">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/pele-eterno-motion.jpg" data-gallery="portfolioGallery"
+                <a href="assets/img/portfolio/pele-eterno-motion.webp" data-gallery="portfolioGallery"
                   class="portfolio-lightbox"
                   title="Minha participação como Motion Designer no projeto Pelé Eterno, exibido na Globoplay, envolveu diversas técnicas de design e animação para enriquecer a narrativa. Realizei reconstruções de imagem e manipulações de chroma key para criar ambientes e efeitos visuais imersivos. Além disso, desenvolvi animações para storytelling, que ajudaram a contar a história do ícone do futebol de forma impactante e emocionante. Trabalhar nesse projeto foi uma experiência única, pois pude aplicar minha criatividade e habilidades técnicas para homenagear Pelé e seu legado de maneira visualmente memorável."><i
                     class="bx bx-plus"></i></a>
@@ -313,7 +335,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-motion">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/laricell.jpeg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/laricell-thumb.webp" class="img-fluid" alt="" width="400" height="300">
               <div class="portfolio-links">
                 <a href="assets/video/laricel_motion.mp4" data-gallery="portfolioGallery" class="portfolio-lightbox"
                   title="Como Motion Designer na Dry Compani, trabalhei no desenvolvimento visual do produto Laricell, criando animações dinâmicas e impactantes para destacar suas qualidades e benefícios. Minha missão foi traduzir as propriedades do produto em uma linguagem visual envolvente, utilizando animações para fortalecer a identidade da marca e a comunicação do produto com o público. Através de gráficos animados e transições fluidas, conseguimos criar uma experiência visual única e memorável, alinhada com a proposta de inovação e eficácia do Laricell."><i
@@ -325,7 +347,8 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-motion">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/osasco-comercial.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/osasco-comercial-thumb.webp" class="img-fluid" alt="" width="400"
+                height="300">
               <div class="portfolio-links">
                 <a href="assets/video/osasco-comercial.mp4" data-gallery="portfolioGallery" class="portfolio-lightbox"
                   title="Animação para o Guia Osasco Comercial."><i class="bx bx-plus"></i></a>
@@ -478,7 +501,7 @@
 
           <a href="https://wa.me/5511989118869?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20seu%20trabalho!%20Vamos%20conversar?"
             target="_blank">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp"
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg?v=1.0" alt="WhatsApp"
               style="width:20px; height:20px; vertical-align:middle;"> Fale comigo no WhatsApp
           </a>
           <p>E-mail: <a href="mailto:rafael_mibr@hotmail.com">rafael_mibr@hotmail.com</a></p>
@@ -508,18 +531,18 @@
       class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.umd.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script defer src="assets/vendor/purecounter/purecounter_vanilla.js?v=1.0"></script>
+  <script defer src="assets/vendor/aos/aos.js?v=1.0"></script>
+  <script defer src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js?v=1.0"></script>
+  <script defer src="assets/vendor/glightbox/js/glightbox.min.js?v=1.0"></script>
+  <script defer src="assets/vendor/isotope-layout/isotope.pkgd.min.js?v=1.0"></script>
+  <script defer src="assets/vendor/swiper/swiper-bundle.min.js?v=1.0"></script>
+  <script defer src="assets/vendor/typed.js/typed.umd.js?v=1.0"></script>
+  <script defer src="assets/vendor/waypoints/noframework.waypoints.js?v=1.0"></script>
+  <script defer src="assets/vendor/php-email-form/validate.js?v=1.0"></script>
 
   <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <script defer src="assets/js/main.js?v=1.0"></script>
 
 </body>
 
